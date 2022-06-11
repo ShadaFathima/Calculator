@@ -19,8 +19,8 @@
             </div>
             <div class="buttons">
                 <div class="row">
-                    <button class="btn" onclick="clearDisplay()">C</button>
-                    <button class="btn" onclick="backSpace()">Del</button>
+                    <button id="clear" class="btn" onclick="clearDisplay()">C</button>
+                    <button id="delete" class="btn" onclick="backSpace()">Del</button>
                     <button class="btn" onclick="btn_click('**')">x^</button>
                     <button class="btn" onclick="btn_click('+')">+</button>
                     <button class="btn" onclick="btn_click('*')">x</button>
@@ -45,7 +45,7 @@
                     <button class="btn" onclick="btn_click(6)">6</button>
                     <button class="btn" onclick="btn_click(3)">3</button>
                     <button class="btn" onclick="btn_click('.')">.</button>
-                    <button class="btn" onclick="calculation('=')">=</button>
+                    <button id="equals" class="btn" onclick="calculation('=')">=</button>
                 </div>
             </div>
         </div>

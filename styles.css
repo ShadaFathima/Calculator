@@ -42,5 +42,34 @@ body{
     height: 40px;
     border: none;
     border-radius: 0.5rem;
+    transform: transition all 0.9s;
+    font-weight: bolder;
 }
+.btn:hover{
+    color: #fff;
+    background-color: 
+    rgba(9, 9, 63, 0.685);
+}
+#clear{
+    transform: transition all 0.9s;
+}
+#clear:hover{
+    color: #fff;
+    background-color: rgb(165, 8, 8);
+}
+#equals{
+    transform: transition all 0.9s;
+}
+#equals:hover{
+    color: #fff;
+    background-color: green;
+}
+#delete{
+    transform: transition all 0.9s;
+}
+#delete:hover{
+    color: #fff;
+    background-color: rgb(223, 91, 43);
+}
+
 
